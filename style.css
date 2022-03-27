@@ -316,6 +316,9 @@ footer .header__nav li {
 @media (max-width: 425px) {
   .header__logo__navbar {
     padding-left: 0;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 50px;
   }
   nav .header__nav {
     flex-direction: column;
